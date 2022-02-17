@@ -1,0 +1,7 @@
+const SUM_OF_SQUARES = [num-1, num-2, num-3, num-n];
+let sum = 0;
+for (let i = 0; i < SUM_OF_SQUARES.length; i++) {
+  let square = SUM_OF_SQUARES[i] * SUM_OF_SQUARES[i];
+  sum += square;
+}
+print sum

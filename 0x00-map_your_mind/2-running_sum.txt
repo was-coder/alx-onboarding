@@ -1,0 +1,13 @@
+const RUNNING_SUM = function (nums) {
+  let answer = 0;
+  for (let i = 1; i < nums.length; i++) {
+    if (nums[i] > 0) {
+      get_answer = nums[i] + nums[i - 1];
+      answer =answer + get_answer;  
+    } else {
+      print answer;
+    }
+  }
+  print answer;
+};
+print RUNNING_SUM([num-1, num-2, num-3, num-4, num-n]);
